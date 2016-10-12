@@ -38,7 +38,13 @@ namespace Build_an_app
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-
+            int x = 5;
+            if (x==10)
+            { myLabel.Text = "x must be 10"; }
+            else
+            {
+                myLabel.Text = "x isn't 10";
+            }
         }
 
         private void button3_Click(object sender, RoutedEventArgs e)
